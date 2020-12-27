@@ -1,0 +1,130 @@
+ion-icon {
+    color: blue;
+  }
+/* <ion-icon size="large"></ion-icon> */
+ion-icon {
+    font-size: 64px;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+.padding {
+   margin-bottom: 50px;
+}
+body{
+  background-color: rgb(154, 196, 231);
+}
+.card{
+  border-color: #010711;
+  border-style: solid;
+  border-width: medium;
+}
+.container {
+  align-items: flex-end;
+}
+.card {
+  flex-grow: 4; /* default 0 */
+}
+.badgeImage {
+  /* border: 5px solid darkblue; */
+  width: 5rem;
+}
+.backround {
+  background-image: url("./assets/beaches.jfif");
+  
+  text-align: center;
+  height: 250px;
+  opacity: 0.2;
+  z-index: 2;
+}
+.backroundImages {
+  position: relative; text-align: center;
+}
+.backImage {
+  position: absolute;
+  top: 30%;
+}
+.badgeImage {
+  /* border: 5px solid darkblue; */
+  width: 5rem;
+}
+.mr-3 {
+  /* border: 5px solid darkblue; */
+  width: 5rem;
+}
+.mr-6 {
+  /* border: 5px solid darkblue; */
+  width: 15rem;
+}
+.mt-0 {
+  position: relative; text-align: center;
+}
+.mb-1 {
+  padding: 5px;
+}
+.rounded-circle {
+  width: 10rem;
+  align-items: flex-end; 
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/beach.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">I am John Doe</h1>
+      <p>And I'm a Photographer</p>
+      <button>Hire me</button>
+    </div>
+  </div>
+  
+  <p>Page Content..</p>
