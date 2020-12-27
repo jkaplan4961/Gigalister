@@ -28,6 +28,13 @@ body{
   border-style: solid;
   border-width: medium;
 }
+
+.card-img-top{
+  border-color: #e60d0d;
+  border-style: solid;
+  border-width: medium;
+  background-color: rgb(154, 196, 231);
+}
 .container {
   align-items: flex-end;
 }
